@@ -6,7 +6,7 @@
 <details><summary> Linux and Mac </summary>
 
 ```sh
-git clone https://github.com/misdirection/nvim-config.git  "${XDG_CONFIG_HOME:-$HOME/.config}"/nvim
+git clone https://github.com/misdirection/nvim2.git  "${XDG_CONFIG_HOME:-$HOME/.config}"/nvim
 ```
 
 </details>
@@ -16,13 +16,13 @@ git clone https://github.com/misdirection/nvim-config.git  "${XDG_CONFIG_HOME:-$
 If you're using `cmd.exe`:
 
 ```
-git clone https://github.com/misdirection/nvim-config.git %localappdata%\nvim\
+git clone https://github.com/misdirection/nvim2.git %localappdata%\nvim\
 ```
 
 If you're using `powershell.exe`
 
 ```
-git clone https://github.com/misdirection/nvim-config.git  $env:LOCALAPPDATA\nvim\
+git clone https://github.com/misdirection/nvim2.git  $env:LOCALAPPDATA\nvim\
 ```
 
 </details>
