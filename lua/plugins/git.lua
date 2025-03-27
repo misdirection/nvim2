@@ -28,7 +28,6 @@ return {
         },
       })
       vim.keymap.set("n", "<leader>do", function()
-        -- Verwende Telescope, um Branches auszuwählen
         require("telescope.builtin").git_branches({
           attach_mappings = function(_, map)
             map("i", "<CR>", function(prompt_bufnr)
